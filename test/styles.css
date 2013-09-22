@@ -1,0 +1,69 @@
+/* polyfill for html5 main element */
+main {
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #0e0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, p {
+	width: 80%;
+	margin: 15px auto;
+}
+
+body  {
+	margin: 0;
+	background-color: black;
+	font-size: 16px;
+}
+
+section#intro {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+
+input {
+	box-sizing: border-box;
+	display: block;
+	outline: none;
+
+	width: 90%;
+	margin: 0 auto;
+	font-size: 28px;
+	text-align: center;
+
+	border: 1px solid #0e0;
+
+	background-color: black;
+	color: #0e0;
+}
+
+button {
+	display: block;
+	background-color: #0e0;
+	border: 0px;
+	padding: 5px 0;
+	font-size: 28px;
+	width: 90%;
+	margin: 20px auto;
+}
+
+/* colors for placeholders */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(0, 255, 0, .6);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(0, 255, 0, .6);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(0, 255, 0, .6);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgba(0, 255, 0, .6);
+}
